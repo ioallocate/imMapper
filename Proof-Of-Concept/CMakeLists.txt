@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 4.1)
+
+add_executable(poc_read_msr poc_read_msr.cpp)
+target_link_libraries(poc_read_msr PRIVATE imMapper_lib)
+
+add_executable(poc_write_msr poc_write_msr.cpp)
+target_link_libraries(poc_write_msr PRIVATE imMapper_lib)
+
+add_executable(poc_read_kernel_mem poc_read_kernel_mem.cpp)
+target_link_libraries(poc_read_kernel_mem PRIVATE imMapper_lib)
+
+add_executable(poc_write_kernel_mem poc_write_kernel_mem.cpp)
+target_link_libraries(poc_write_kernel_mem PRIVATE imMapper_lib)
