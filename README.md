@@ -1,5 +1,5 @@
 # imMapper
-- A Demonstration on how to abuse the Vulnerable Driver AmdTools64. The Driver has the ability to (only) Read/Write Kernel Space Memory, as well as to Read/Write the MSR. This requires Admin Privileges.
+- A Demonstration on how to abuse the Vulnerable Driver AmdTools64. The Driver has the ability to (only) Read/Write Kernel Space Memory, as well as to Read/Write the MSR. This requires Admin Privileges. The driver is distributed trough the tool [RGBFusion-2](https://www.gigabyte.com/microsite/512/rgb2.html).
 
 ## Exclamation-mark
 - This Demonstration is only for Learning Purposes, and I Discourage the Misuse of this vulnerability, as of 8/25/2026 there is no valid CVE and is not in progress, any future CVE will not be of the original author, me.
